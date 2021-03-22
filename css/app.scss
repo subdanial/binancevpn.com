@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Product Sans;
+    font-weight: normal;
+    src: url("../font/Product Sans Regular.woff2");
+}
+@font-face {
+    font-family: Product Sans;
+    font-weight: bold;
+    src: url("../font/Product Sans bold.woff2");
+}
+$base-color : #f5bb2b;
+$primary : #003366;
+.text-primary{
+    color:$primary!important;
+}
+.bg-secondary{
+    background-color: rgb(230, 230, 230)!important ;
+}
+.fs-7{
+    font-size: 1.2rem;
+}
+
+html,
+body {
+    font-family: "Product Sans", sans-serif;
+
+}
+._why {
+    ._title {
+        font-weight: bold;
+        &::after {
+    
+     
+            content: '';
+            border-bottom: 4px solid $base-color;
+            width: 48px;
+            display: block;
+            margin: 5px auto;
+        }
+    }
+}
+._download{
+    ._logo{
+        width: 80px;
+        height: 80px;
+    }
+}
+._inner{
+    
+    border-radius: 3px;
+    background-color: #fff;
+    margin-bottom: 16px;
+    transition: box-shadow .25s ease-out;
+    cursor: pointer;
+    padding:50px 0;
+    box-shadow: 0 0 0 1px rgba(56,60,67,.05),0 1px 3px 0 rgba(56,60,67,.15);
+    &:hover{
+        box-shadow: 0 0 0 1px rgba(56,60,67,.07),0 8px 14px 1px rgba(56,60,67,.15);
+    }
+    cursor: pointer;
+    .SVG-wrapper{
+        img{
+            margin:auto;
+            display: block;
+            width: 48px;
+        }
+    }
+}

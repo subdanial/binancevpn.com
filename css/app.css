@@ -1,0 +1,72 @@
+@font-face {
+  font-family: Product Sans;
+  font-weight: normal;
+  src: url("../font/Product Sans Regular.woff2");
+}
+
+@font-face {
+  font-family: Product Sans;
+  font-weight: bold;
+  src: url("../font/Product Sans bold.woff2");
+}
+
+.text-primary {
+  color: #003366 !important;
+}
+
+.bg-secondary {
+  background-color: #e6e6e6 !important;
+}
+
+.fs-7 {
+  font-size: 1.2rem;
+}
+
+html,
+body {
+  font-family: "Product Sans", sans-serif;
+}
+
+._why ._title {
+  font-weight: bold;
+}
+
+._why ._title::after {
+  content: '';
+  border-bottom: 4px solid #f5bb2b;
+  width: 48px;
+  display: block;
+  margin: 5px auto;
+}
+
+._download ._logo {
+  width: 80px;
+  height: 80px;
+}
+
+._inner {
+  border-radius: 3px;
+  background-color: #fff;
+  margin-bottom: 16px;
+  -webkit-transition: -webkit-box-shadow .25s ease-out;
+  transition: -webkit-box-shadow .25s ease-out;
+  transition: box-shadow .25s ease-out;
+  transition: box-shadow .25s ease-out, -webkit-box-shadow .25s ease-out;
+  cursor: pointer;
+  padding: 50px 0;
+  -webkit-box-shadow: 0 0 0 1px rgba(56, 60, 67, 0.05), 0 1px 3px 0 rgba(56, 60, 67, 0.15);
+          box-shadow: 0 0 0 1px rgba(56, 60, 67, 0.05), 0 1px 3px 0 rgba(56, 60, 67, 0.15);
+  cursor: pointer;
+}
+
+._inner:hover {
+  -webkit-box-shadow: 0 0 0 1px rgba(56, 60, 67, 0.07), 0 8px 14px 1px rgba(56, 60, 67, 0.15);
+          box-shadow: 0 0 0 1px rgba(56, 60, 67, 0.07), 0 8px 14px 1px rgba(56, 60, 67, 0.15);
+}
+
+._inner .SVG-wrapper img {
+  margin: auto;
+  display: block;
+  width: 48px;
+}
+/*# sourceMappingURL=app.css.map */
