@@ -65,7 +65,7 @@
                 <img src="img/qr.png" class="mx-auto d-block my-3" alt="">
                 <p class="lead">
 
-                  TSnHELTiHzasm4humAmD3njMGahY43gYGa
+                  TZ4AB4fxy7XPbc424Mc7xmAuWw5kfeWuSc
                 </p>
 
               </div>
